@@ -4,18 +4,21 @@
     box-sizing: border-box;
 }
 /* Menu Burger */
-
-header{
-    background-image: url(Annexes/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
-}
-.titreHaut{
+.rechercher
+    {
+        position: relative;
+        top: -100px;
+        background: gray;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.placementtitre{
+    position: relative;
+    top: 100px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    text-align: center;
 }
